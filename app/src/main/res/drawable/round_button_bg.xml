@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed (Blue background when clicked) -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/blue"/>
+        </shape>
+    </item>
+    <!-- Default (Light gray background) -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/light_gray"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LoginTextInputInnerFieldStyle"></style>
+
+    <style name="LoginTextInputOuterFieldStyle"></style>
+
+    <style name="RoundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
+    </style>
+    <style name="RoundedCorner" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">30dp</item>
+    </style>
+
+    <style name="RoundedTopCornersShape" parent="ShapeAppearance.MaterialComponents">
+        <item name="cornerSizeTopLeft">35dp</item>
+        <item name="cornerSizeTopRight">35dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#F0F0EB"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp">
+
+        <!-- Round Back Button -->
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/round_button_bg"
+            android:src="@drawable/arrow_back"
+            app:tint="@color/round_button_text_color"
+            android:scaleType="center"
+            android:contentDescription="Back Button"/>
+
+        <!-- Review News Title -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Review News"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black"/>
+
+        <!-- Round Draft Button (No Text, Only Icon) -->
+        <ImageButton
+            android:id="@+id/draftButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/round_button_bg"
+            android:src="@drawable/ic_draft"
+            app:tint="@color/round_button_text_color"
+            android:scaleType="center"
+            android:contentDescription="Draft Button"/>
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp">
+
+            <ImageView
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/img"
+                android:id="@+id/uploadImage"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadTopic"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Enter a catchy headline for your news..."
+                android:gravity="start"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:id="@+id/uploadDesc"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Write your news article here..."
+                android:gravity="start"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
+
+            <Spinner
+                android:id="@+id/categorySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/lavender_border"
+                android:padding="16dp"
+                android:backgroundTint="@color/white"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/location"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Location"
+                android:gravity="start|center_vertical"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/reporterName"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Reporter/Author Name"
+                android:text="[Pre-filled with logged-in user]"
+                android:gravity="start|center_vertical"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/dateTimePicker"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Date and Time"
+                android:text="[Default to current date/time]"
+                android:gravity="start|center_vertical"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:paddingHorizontal="5dp"
+                android:weightSum="2">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:text="Reject News"
+                    android:id="@+id/rejectNews"
+                    android:textSize="18sp"
+                    android:drawableLeft="@drawable/baseline_close_24"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="10dp"
+                    app:cornerRadius="20dp"
+                    app:backgroundTint="#D32F2F"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:text="Publish News"
+                    android:id="@+id/publishNews"
+                    android:textSize="18sp"
+                    android:drawableRight="@drawable/baseline_east_24"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    app:cornerRadius="20dp"
+                    app:backgroundTint="#0D0C0C"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

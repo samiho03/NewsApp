@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_list"
+        android:icon="@drawable/baseline_all_inbox_24"
+        android:title="News List"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bottom_create2"
+        android:icon="@drawable/baseline_add_circle_24"
+        android:title="Review"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bottom_profile2"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Profile"
+        app:showAsAction="always" />
+</menu>

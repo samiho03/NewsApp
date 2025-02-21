@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "373299955442",
+    "project_id": "appnews-45522",
+    "storage_bucket": "appnews-45522.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373299955442:android:60e758ee1b0e6b0cfdb26b",
+        "android_client_info": {
+          "package_name": "com.example.lastapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALo1bo-ab6wMz3GJycIh4dpZRwZlIU58U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373299955442:android:1a5f0baa64a1d749fdb26b",
+        "android_client_info": {
+          "package_name": "com.example.news"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALo1bo-ab6wMz3GJycIh4dpZRwZlIU58U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

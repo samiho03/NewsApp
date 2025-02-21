@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LastAPP" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#F0F0EB</item>
+        <item name="android:navigationBarColor">#F0F0EB</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    </style>
+
+    <style name="Theme.LastAPP" parent="Base.Theme.LastAPP" />
+</resources>

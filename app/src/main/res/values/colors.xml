@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color> <!-- Removed FF -->
+    <color name="white">#FFFFFF</color> <!-- Removed FF -->
+    <color name="grey">#808080</color>
+    <color name="lavender">#FFFFFF</color>
+    <color name="red">#b22222</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="blue">#2196F3</color>
+    <color name="dark_blue">#1976D2</color>
+
+
+</resources>
