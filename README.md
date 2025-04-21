@@ -17,7 +17,7 @@ An Android news application built with Kotlin, leveraging the NewsAPI to fetch a
 
 ### Loading Page
 
-![Home Page](https://github.com/samiho03/NewsApp/blob/main/LoadingPage)
+![Home Page](https://github.com/samiho03/NewsApp/blob/main/images/LoadingPage.jpg)
 
 ### 📂 Category Selection
 
