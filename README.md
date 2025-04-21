@@ -4,6 +4,20 @@ An Android news application built with Kotlin, leveraging the NewsAPI to fetch a
 
 ---
 
+##  User Roles
+
+The app supports two main roles, each with distinct functionalities:
+
+### Reporter
+- Create and submit news articles.
+- View submitted articles and track their review status.
+
+### Editor
+- Review and manage reported news.
+- Accept or reject articles submitted by reporters.
+
+---
+
 ## Features
 
 - **Real-time News Fetching**: Stay updated with the latest news articles fetched directly from NewsAPI.
@@ -16,18 +30,44 @@ An Android news application built with Kotlin, leveraging the NewsAPI to fetch a
 ## Interface Previews
 
 ### Loading Page
-
 ![Home Page](https://github.com/samiho03/NewsApp/blob/main/images/loading.jpg)
 
-### 📂 Login & Register Pages
+### Login & Register Pages
+![Login-Register](https://github.com/samiho03/NewsApp/blob/main/images/Login-RegisterPages.png)
 
-![Login-Register](https://github.com/samiho03/NewsApp/blob/main/images/Login-RegisterPages.jpg)
+### My Profile
+![My profile](https://github.com/samiho03/NewsApp/blob/main/images/MyProfile.jpg)
 
-### 📄 Article Details
+### Create News (For Reporters)
+Reporters can submit their articles using this page.
+![Create News](https://github.com/samiho03/NewsApp/blob/main/images/CreateNewsPage-Reporter.jpg)
 
-![Article Details](path_to_article_details_image)
+### My Submissions (For Reporters)
+Displays all articles submitted by the reporter along with their statuses.
+![Submissions](https://github.com/samiho03/NewsApp/blob/main/images/MySubmissions-Reporter.jpg)
 
+### Reported News (For Editors)
+Editors can view reported or flagged articles here.
+![Reported News](https://github.com/samiho03/NewsApp/blob/main/images/ReportedNews-Editor.jpg)
+
+### Review News (For Editors)
+Editors can accept or reject news submitted by reporters.
+![Review](https://github.com/samiho03/NewsApp/blob/main/images/ReviewNews-Editor.jpg)
 
 ---
 
+## Technologies Used
 
+- **Kotlin**: Primary programming language for building the app.
+
+- **Retrofit**: Handles network requests and communicates with the NewsAPI.
+
+- **Glide**: Efficient image loading and caching in the app's UI.
+
+- **Firebase**: Used for backend support and data storage.
+
+- **MVVM Architecture**: Ensures a clean separation of concerns, improving testability and scalability.
+
+- **LiveData & ViewModel**: Enables reactive UI updates and lifecycle-aware data handling.
+
+---
