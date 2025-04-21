@@ -15,7 +15,7 @@ An Android news application built with Kotlin, leveraging the NewsAPI to fetch a
 
 ## Interface Previews
 
-### 🏠 Home Screen
+### Loading Page
 
 ![Home Screen](path_to_home_screen_image)
 
